@@ -1,0 +1,27 @@
+INSERT INTO Pet (PetName, Specie, Cssn) 
+VALUES ('Çakıl', 'Dog', '11115678901');
+
+INSERT INTO Pet (PetName, Specie, Cssn) 
+VALUES ('Duman', 'Cat', '11115937612');
+
+INSERT INTO Pet (PetName, Specie, Cssn) 
+VALUES ('Gofret', 'Cat', '11119263847');
+
+INSERT INTO Pet (PetName, Specie, Cssn) 
+VALUES ('Leo', 'Dog', '11115627394');
+
+
+
+INSERT INTO Pet (PetName, Specie, Cssn) 
+VALUES ('Boncuk', 'Dog', '11113957281');
+
+INSERT INTO Pet (PetName, Specie, Cssn) 
+VALUES ('Maviş', 'Dog', '11117983465');
+
+INSERT INTO Pet (PetName, Specie, Cssn) 
+VALUES ('Miço', 'Dog', '11113489276');
+
+INSERT INTO Pet (PetName, Specie, Cssn) 
+VALUES ('Boncuk', 'Bird', '11117849235');
+
+

@@ -1,0 +1,70 @@
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11112756438', 'Malik', 'Uçar', '09998437291', 'housekeeper', '5', '28');
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11113489217', 'Mervegül', 'Şeref', '09995731826', 'receptionist', '7', '25');
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11115723864', 'Volkan', 'Taşyürek', '09997124958', 'Security', '10', '30');
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11114837295', 'Buket', 'Su', '09996842197', 'housekeeper', '5', '20');
+
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11112965143', 'Aykut', 'Saydam', '09993567812', 'chef', '6', '35');
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11117438621', 'Buse', 'Ruşan', '09994817320', 'housekeeper', '4', '27');
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11115841729', 'Bernanur', 'Paksoy', '09992386457', 'chef', '8', '32');
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11116328497', 'Lalezar', 'Özkul', '09997652134', 'chef', '9', '39');
+
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11113245678', 'Ebru', 'Öz', '09996049821', 'Welcomer', '10', '24');
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11119873452', 'Nazlı', 'Koçak', '09995123684', 'technician', '5', '30');
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11114329876', 'Melis', 'Güzel', '09993274869', 'technician', '2', '36');
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11117654321', 'Güney', 'Erin', '09994829173', 'Bellboy', '10', '24');
+
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11117595131', 'Canan', 'Gündüz', '09998449821', 'technician', '5', '27');
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11119982662', 'Melike', 'Boynubükük', '09997431241', 'receptionist', '3', '38');
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11117823412', 'Ragıp', 'Beşir', '09995764389', 'housekeeper', '7', '19');
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11119004231', 'Jonathan', 'Armstrong', '09999079651', 'Security', '6', '33');
+
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11119912512', 'Bora', 'Yalınayak', '09996449813', 'technician', '3', '26');
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11117485556', 'Şimşek', 'Fazıl', '09996239078', 'Security', '7', '43');
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11117670912', 'Riley', 'King', '09991176319', 'Welcomer', '8', '28');
+
+INSERT INTO Employee (SSN, Name, Surname, Phone_number, Duty, Workload, Age) 
+VALUES ('11110125512', 'James', 'Sullivan', '09999658331', 'Security', '8', '33');
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11115678901', 'Mehmetcan', 'Akay', '19998457293', 'Mehmetcan@Akay.com');
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11112837156', 'Özde', 'Acarkan', '19996723812', 'Özde@Acarkan.com');
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11113957281', 'Sevinç', 'Çıkıkcı', '19997346831', 'Sevinç@Çıkıkcı.com');
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11114829173', 'Derya', 'Duymuş', '19997362812', 'Derya@Duymuş.com');
+
+
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11115937612', 'İbrahim Alp', 'Tekin', '19993546812', 'İbrahimAlp@Tekin.com');
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11116754321', 'Mert', 'Ersöz', '19997761812', 'Mert@Ersöz.com');
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11117983465', 'Faik', 'Ezber', '19997347892', 'Faik@Ezber.com');
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11118124956', 'Menekşe', 'Geben', '19991293012', 'Menekşe@Geben.com');
+
+
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11119263847', 'Gülser', 'Sarıoğlu', '19998942813', 'Gülser@Sarıoğlu.com');
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11112374859', 'Ali', 'Şerbetçi', '19997719812', 'Ali@Şerbetçi.com');
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11113489276', 'Oliver', 'Pride', '19997342952', 'Oliver@Pride.com');
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11114592831', 'Charlie', 'Hope', '19997311012', 'Charlie@Hope.com');
+
+
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11115627394', 'Thomas', 'Miller', '19997600812', 'Thomas@Miller.com');
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11116738412', 'Jack', 'Davis', '19998806823', 'Jack@Davis.com');
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11117849235', 'Olivia', 'Connell', '19997377712', 'Olivia@Connell.com');
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11118965732', 'Sophie', 'Anderson', '19990096832', 'Sophie@Anderson.com');
+
+
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11117798323', 'Mahmut', 'Derin', '19992178913', 'Mahmut@Derin.com');
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11119965431', 'Kanye', 'East', '19998896838', 'Kanye@East.com');
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11117831235', 'Yıldırım', 'Burnubüyük', '19998896867', 'Yıldırım@Burnubüyük.com');
+
+INSERT INTO Customer (SSN, Name, Surname, Phone_number, Email) 
+VALUES ('11118965732', 'Albert', 'Miller', '19997766232', 'Albert@Miller.com');
+
+
+
+
+
+
+
+
+
+

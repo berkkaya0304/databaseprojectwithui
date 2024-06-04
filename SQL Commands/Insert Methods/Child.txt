@@ -1,0 +1,32 @@
+INSERT INTO Child (ChildName, Cssn, BirthYear)
+VALUES ('Osman', '11112837156', '2010');
+
+INSERT INTO Child (ChildName, Cssn, BirthYear)
+VALUES ('Mahmut', '11116754321', '2009');
+
+INSERT INTO Child (ChildName, Cssn, BirthYear)
+VALUES ('Mehmet', '11112374859', '2006');
+
+INSERT INTO Child (ChildName, Cssn, BirthYear)
+VALUES ('Lucas', '11116738412', '2013');
+
+
+INSERT INTO Child (ChildName, Cssn, BirthYear)
+VALUES ('Hasan', '11113957281', '2010');
+
+INSERT INTO Child (ChildName, Cssn, BirthYear)
+VALUES ('Cem', '11117983465', '2007');
+
+INSERT INTO Child (ChildName, Cssn, BirthYear)
+VALUES ('Arthur', '11113489276', '2015');
+
+INSERT INTO Child (ChildName, Cssn, BirthYear)
+VALUES ('Elvis', '11117849235', '2018');
+
+
+INSERT INTO Child (ChildName, Cssn, BirthYear) 
+VALUES ('Zeynep', '11118124956', 2010);
+
+INSERT INTO Child (ChildName, Cssn, BirthYear) 
+VALUES ('Polo', '11115627394', 2014);
+

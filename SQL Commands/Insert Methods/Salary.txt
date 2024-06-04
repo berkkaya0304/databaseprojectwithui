@@ -1,0 +1,63 @@
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('001', '11112756438', '4000', '2024-05-15', 'Türk Lirası');
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('002', '11113489217', '3000', '2024-05-15', 'Türk Lirası');
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('003', '11115723864', '5000', '2024-05-15', 'Türk Lirası');
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('004', '11114837295', '4000', '2024-05-15', 'Türk Lirası');
+
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('005', '11112965143', '6000', '2024-05-15', 'Türk Lirası');
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('006', '11117438621', '4000', '2024-05-15', 'Türk Lirası');
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('007', '11115841729', '6000', '2024-05-15', 'Türk Lirası');
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('008', '11116328497', '6000', '2024-05-15', 'Türk Lirası');
+
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('009', '11113245678', '3500', '2024-05-15', 'Türk Lirası');
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('010', '11119873452', '5500', '2024-05-15', 'Türk Lirası');
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('011', '11114329876', '5500', '2024-05-15', 'Türk Lirası');
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('012', '11117654321', '3750', '2024-05-15', 'Türk Lirası');
+
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('013', '11117595131', '5500', '2024-05-15', 'Türk Lirası');
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('014', '11119982662', '3000', '2024-05-15', 'Türk Lirası');
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('015', '11117823412', '4000', '2024-05-15', 'Türk Lirası');
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('016', '11119004231', '5000', '2024-05-15', 'Türk Lirası');
+
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('017', '11119912512', '5500', '2024-05-15', 'Türk Lirası');
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('018', '11117485556', '5000', '2024-05-15', 'Türk Lirası');
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('019', '11117670912', '3500', '2024-05-15', 'Türk Lirası');
+
+INSERT INTO Salary (SalaryID, SSN_No, Amount, PayDay, Currency) 
+VALUES ('020', '11110125512', '5000', '2024-05-15', 'Türk Lirası');

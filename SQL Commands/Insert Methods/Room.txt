@@ -1,0 +1,60 @@
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Single', '001', '9');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Single', '002', '9');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Single', '003', '9');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Single', '004', '9');
+
+
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Single', '101', '1');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Single', '102', '1');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Single', '103', '1');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Double', '104', '2');
+
+
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Double', '201', '2');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Double', '202', '2');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Single', '203', '1');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Quad', '204', '4');
+
+
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Double', '301', '2');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Quad', '302', '4');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Quad', '303', '4');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('King', '304', '6');
+
+
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('King', '401', '6');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('King', '402', '6');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('King', '403', '6');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Quad', '404', '4');
+
+
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Single', '501', '1');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Quad', '502', '4');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('King', '503', '6');
+
+INSERT INTO Room (Room_type, Room_number, Capacity) VALUES ('Double', '504', '2');
+
+
+

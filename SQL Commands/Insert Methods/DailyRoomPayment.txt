@@ -1,0 +1,11 @@
+INSERT INTO DailyRoomPayment (RoomType, Amount) 
+VALUES ('Single', '1500');
+
+INSERT INTO DailyRoomPayment (RoomType, Amount) 
+VALUES ('Double', '2500');
+
+INSERT INTO DailyRoomPayment (RoomType, Amount) 
+VALUES ('Quad', '4500');
+
+INSERT INTO DailyRoomPayment (RoomType, Amount) 
+VALUES ('King', '5500');

@@ -1,0 +1,29 @@
+CREATE VIEW Rooms AS SELECT * FROM Room;
+CREATE VIEW Employees AS SELECT * FROM Employee;
+
+
+DELIMITER //
+CREATE TRIGGER MinimumStayRequirement BEFORE INSERT ON Booking
+FOR EACH ROW
+BEGIN
+IF DATEDIFF (NEW.ExitDate, NEW.BookingDate) < 1 THEN
+SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Minimum stay requirement not met';
+END IF;
+END;//
+DELIMITER ;
+
+DELIMITER //
+CREATE TRIGGER RoomOccupancyStatus AFTER INSERT ON Booking
+FOR EACH ROW
+BEGIN
+IF NEW.RoomNo IS NOT NULL THEN
+UPDATE Room
+SET Occupied = 1
+WHERE Room_number = NEW.RoomNo; END IF;
+END;//
+DELIMITER ;
+
+
+CREATE UNIQUE INDEX idx_salary_ssn ON Salary (SSN_No);
+CREATE UNIQUE INDEX idx_customer_ssn ON Customer (Name);
+CREATE UNIQUE INDEX idx_room_roomnumber ON Room (Room_number);

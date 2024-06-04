@@ -1,0 +1,63 @@
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11114589890', '2024-06-18', '2024-07-03', '1', '101', '11115678901' );
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11114577690', '2024-07-18', '2024-07-25', '1', '102', '11112837156');
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11114589313', '2024-06-20', '2024-06-23', '1', '103', '11113957281' );
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11119689890', '2024-06-15', '2024-07-14', '2', '104',  '11114829173');
+
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11115549890', '2024-08-11', '2024-08-25', '1', '201', '11115937612' );
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11114587760', '2024-06-12', '2024-06-22', '2', '202', '11116754321' );
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11114665890', '2024-06-15', '2024-07-01', '1', '203', '11117983465' );
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11114554390', '2024-06-17', '2024-07-01', '3', '204', '11118124956');
+
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11114589623', '2024-06-18', '2024-06-21', '2', '301', '11119263847' );
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11117768989', '2024-06-23', '2024-07-03', '4', '302', '11112374859' );
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11116546719', '2024-06-25', '2024-07-08', '4', '303', '11113489276' );
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11114562930', '2024-07-15', '2024-07-28', '6', '304', '11114592831' );
+
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11111249390', '2024-09-01', '2024-09-08', '5', '401', '11115627394' );
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11110089760', '2024-08-28', '2024-09-12', '4', '402', '11116738412');
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11114582316', '2024-09-03', '2024-09-17', '3', '403', '11117849235' );
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11117641831', '2024-07-15', '2024-08-05', '4', '404', '11118965732' );
+
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11114586658', '2024-06-17', '2024-07-30', '1', '501', '11117798323' );
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11119006540', '2024-06-18', '2024-07-25', '4', '502', '11119965431' );
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11114482790', '2024-08-03', '2024-08-31', '6', '503', '11117831235' );
+
+INSERT INTO Booking (BookingId, BookingDate, ExitDate, NumberOfGuests, Roomno, Cssn) 
+VALUES ('11113169865', '2024-07-21', '2024-07-30', '2', '504', '11118965732' );

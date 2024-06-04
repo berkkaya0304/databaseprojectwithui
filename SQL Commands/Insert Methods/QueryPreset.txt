@@ -1,0 +1,106 @@
+-- HighSalaryEmployees
+-- Insert statement for finding employees with salary greater than 15000
+INSERT INTO Preset_Query (QueryName, PresetText)
+VALUES ('HighSalaryEmployees', 'SELECT e.SSN, e.Name, e.Surname, e.Phone_number, e.Duty, e.Workload, e.Age, s.Amount, s.PayDay, s.Currency FROM Employee e JOIN Salary s ON e.SSN = s.SSN_No WHERE s.Amount > 15000;');
+
+-- AvailableRoomsOnDate
+-- Insert statement for listing available rooms on a specific date
+INSERT INTO Preset_Query (QueryName, PresetText)
+VALUES ('AvailableRoomsOnDate', 'SELECT r.Room_number, r.Room_type, r.Capacity FROM Room r LEFT JOIN Booking b ON r.Room_number = b.RoomNo AND b.ExitDate >= ''2024-05-17'' AND b.BookingDate <= ''2024-05-17'' WHERE b.RoomNo IS NULL;');
+
+-- CustomerReservations
+-- Insert statement for listing all reservations of a specific customer
+INSERT INTO Preset_Query (QueryName, PresetText)
+VALUES ('CustomerReservations', 'SELECT b.BookingId, b.BookingDate, b.ExitDate, b.NumberOfGuests, b.RoomNo FROM Booking b JOIN Customer c ON b.Cssn = c.SSN WHERE c.SSN = ''123-45-6789'';');
+
+-- ReservationsInDateR
+-- Insert statement for listing all reservations within a date range
+INSERT INTO Preset_Query (QueryName, PresetText)
+VALUES ('ReservationsInDateR', 'SELECT b.BookingId, b.BookingDate, b.ExitDate, c.Name, c.Surname, b.RoomNo FROM Booking b JOIN Customer c ON b.Cssn = c.SSN WHERE b.BookingDate BETWEEN ''2024-05-01'' AND ''2024-05-31'';');
+
+-- TopCustomers
+-- Insert statement for listing top customers by number of reservations
+INSERT INTO Preset_Query (QueryName, PresetText)
+VALUES ('TopCustomers', 'SELECT c.Name, c.Surname, COUNT(b.BookingId) AS TotalBookings FROM Booking b JOIN Customer c ON b.Cssn = c.SSN GROUP BY c.SSN ORDER BY TotalBookings DESC LIMIT 10;');
+
+-- DailyRoomPayments
+-- Insert statement for listing daily room payments by room type
+INSERT INTO Preset_Query (QueryName, PresetText)
+VALUES ('DailyRoomPayments', 'SELECT RoomType, Amount FROM DailyRoomPayment;');
+
+-- AverageEmployeeAge
+-- Insert statement for calculating average age of employees
+INSERT INTO Preset_Query (QueryName, PresetText)
+VALUES ('AverageEmployeeAge', 'SELECT AVG(CAST(Age AS UNSIGNED)) AS AverageAge FROM Employee;');
+
+-- CustomerPets
+-- Insert statement for listing pets of a specific customer
+INSERT INTO Preset_Query (QueryName, PresetText)
+VALUES ('CustomerPets', 'SELECT p.PetName, p.Specie FROM Pet p JOIN Customer c ON p.Cssn = c.SSN WHERE c.SSN = ''123-45-6789'';');
+
+-- EmployeeSalariesByD
+-- Insert statement for listing employee salary payments in order of payment date
+INSERT INTO Preset_Query (QueryName, PresetText)
+VALUES ('EmployeeSalariesByD', 'SELECT e.Name, e.Surname, s.Amount, s.PayDay, s.Currency FROM Employee e JOIN Salary s ON e.SSN = s.SSN_No ORDER BY s.PayDay DESC;');
+
+-- RoomsByCapacity
+-- Insert statement for listing rooms with capacity greater than a specified number
+INSERT INTO Preset_Query (QueryName, PresetText)
+VALUES ('RoomsByCapacity', 'SELECT Room_number, Room_type, Capacity FROM Room WHERE CAST(Capacity AS UNSIGNED) > 2;');
+
+-- CountRoomsByCapacity
+-- Insert statement for counting rooms with capacity greater than a specified number
+INSERT INTO Preset_Query (QueryName, PresetText)
+VALUES ('CountRoomsByCapacity', 'SELECT Room_type, Capacity, COUNT(*) AS NumberOfRooms FROM Room WHERE CAST(Capacity AS UNSIGNED) > 2 GROUP BY Room_type, Capacity;');
+
+-- TotalRevenueInDateR
+-- Insert statement for calculating total revenue from reservations within a date range
+INSERT INTO Preset_Query (QueryName, PresetText)
+VALUES ('TotalRevenueInDateR', 'SELECT SUM(CAST(dp.Amount AS DECIMAL(7,2))) AS TotalRevenue FROM Booking b JOIN DailyRoomPayment dp ON b.RoomNo = dp.RoomType WHERE b.BookingDate BETWEEN ''2024-05-01'' AND ''2024-05-31'';');
+
+-- CustomersWithChild
+-- Insert statement for listing customers with children
+INSERT INTO Preset_Query (QueryName, PresetText)
+VALUES ('CustomersWithChild', 'SELECT DISTINCT c.SSN, c.Name, c.Surname, c.Phone_number, c.Email FROM Customer c JOIN Child ch ON c.SSN = ch.Cssn;');
+
+-- HouseDutyEmployees
+-- Insert statement for finding employees with cleaning duty within a date range
+INSERT INTO Preset_Query (QueryName, PresetText)
+VALUES ('HouseDutyEmployees', 'SELECT DISTINCT e.SSN FROM Employee e JOIN WorkOn w ON e.SSN = w.Essn WHERE e.Duty = ''Cleaning'' AND w.WorkDate BETWEEN ''2024-05-01'' AND ''2024-05-31'';');
+
+-- MostBookedRoomType
+-- Insert statement for finding the most frequently booked room type
+INSERT INTO Preset_Query (QueryName, PresetText)
+VALUES ('MostBookedRoomType', 'SELECT r.Room_type, COUNT(b.BookingId) AS BookingCount FROM Room r JOIN Booking b ON r.Room_number = b.RoomNo GROUP BY r.Room_type ORDER BY BookingCount DESC LIMIT 1;');
+
+-- AverageStayDuration
+-- Insert statement for calculating average stay duration of past customers
+INSERT INTO Preset_Query (QueryName, PresetText)
+VALUES ('AverageStayDuration', 'SELECT AVG(DATEDIFF(b.ExitDate, b.BookingDate)) AS AverageStay FROM Booking b WHERE b.ExitDate IS NOT NULL;');
+
+-- UpcomingReservationE
+-- Insert statement for getting email information of customers with upcoming reservations
+INSERT INTO Preset_Query (QueryName, PresetText)
+VALUES ('UpcomingReservationE', 'SELECT c.Name, c.Surname, c.Email, b.BookingDate FROM Customer c JOIN Booking b ON c.SSN = b.Cssn WHERE b.BookingDate BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 7 DAY);');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

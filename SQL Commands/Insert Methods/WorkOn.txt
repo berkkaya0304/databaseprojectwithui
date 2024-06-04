@@ -1,0 +1,135 @@
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11112756438', '101');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11112756438', '104');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11112756438', '204');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11112756438', '304');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11112756438', '401');
+
+
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11114837295', '102');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11114837295', '201');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11114837295', '402');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11114837295', '404');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11114837295', '501');
+
+
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11117438621', '103');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11117438621', '202');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11117438621', '302');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11117438621', '403');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11117438621', '502');
+
+
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11117823412', '203');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11117823412', '301');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11117823412', '303');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11117823412', '503');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11117823412', '504');
+
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11113489217', '001');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11119982662', '001');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11117670912', '001');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11117654321', '001');
+
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11115723864', '002');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11119873452', '002');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11114329876', '002');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11117595131', '002');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11119004231', '002');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11119912512', '002');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11110125512', '002');
+
+
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11112965143', '003');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11115841729', '003');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11116328497', '003');
+
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11112756438', '004');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11114837295', '004');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11117438621', '004');
+
+INSERT INTO WorkOn (Essn, Rnumber) 
+VALUES ('11117823412', '004');
+
+
+
+
+
+
+
+
+
+
+

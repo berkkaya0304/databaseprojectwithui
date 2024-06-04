@@ -1,0 +1,28 @@
+INSERT INTO Account (Name, Email, Password, userType) 
+VALUES ('Berk Kaya', 'berk@kaya.com', 'berkkaya123','Admin');
+
+INSERT INTO Account (Name, Email, Password, UserType) 
+VALUES ('Alperen Aktaş', 'alperen@aktaş.com', 'alperenaktaş123','User');
+
+INSERT INTO Account (Name, Email, Password, UserType) 
+VALUES ('Onur Turan', 'onur@turan.com', 'onurturan123','Employee');
+
+INSERT INTO Account (Name, Email, Password, UserType) 
+VALUES ('Yankı Karahan', 'yankı@karahan.com', 'yankıkarahan123','Admin');
+
+INSERT INTO Account (Name, Email, Password, UserType) VALUES
+('Alice', 'alice@example.com', 'password123', 'User'),
+('Bob', 'bob@example.com', 'password456', 'Employee'),
+('Charlie', 'charlie@example.com', 'password789', 'User'),
+('David', 'david@example.com', 'password321', 'User'),
+('Eva', 'eva@example.com', 'password654', 'Employee'),
+('Frank', 'frank@example.com', 'password987', 'User'),
+('Grace', 'grace@example.com', 'password111', 'Employee'),
+('Hannah', 'hannah@example.com', 'password222', 'User'),
+('Ivy', 'ivy@example.com', 'password333', 'Employee'),
+('Jack', 'jack@example.com', 'password444', 'User'),
+('Kate', 'kate@example.com', 'password555', 'Employee'),
+('Liam', 'liam@example.com', 'password666', 'User'),
+('Mia', 'mia@example.com', 'password777', 'Employee'),
+('Noah', 'noah@example.com', 'password888', 'User');
+
