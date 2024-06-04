@@ -44,17 +44,15 @@
 
 In this project, we have a chance to apply our database skills in developing area. That was excellent opportunity to do that.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/berkkaya0304/databaseprojectwithui.svg?style=for-the-badge
 [contributors-url]: https://github.com/berkkaya0304/databaseprojectwithui/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/berkkaya0304/databaseprojectwithui.svg?style=for-the-badge
 [forks-url]: https://github.com/berkkaya0304/databaseprojectwithui/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/berkkaya0304/databaseprojectwithui.svg?style=for-the-badge
 [stars-url]: https://github.com/berkkaya0304/databaseprojectwithui/stargazers
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/berkkaya0304
