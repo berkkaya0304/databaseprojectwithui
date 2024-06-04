@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cmpe232_Demo", "Cmpe232_Demo\Cmpe232_Demo.csproj", "{48D150A8-60AC-4A4D-9DB5-DCA5830F7CBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48D150A8-60AC-4A4D-9DB5-DCA5830F7CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D150A8-60AC-4A4D-9DB5-DCA5830F7CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D150A8-60AC-4A4D-9DB5-DCA5830F7CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D150A8-60AC-4A4D-9DB5-DCA5830F7CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {232AAFA8-3A8D-4D12-B9A4-FC8687B101E5}
+	EndGlobalSection
+EndGlobal
